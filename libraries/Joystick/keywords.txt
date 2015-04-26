@@ -1,0 +1,4 @@
+Joystick	KEYWORD1
+onAxis	KEYWORD2
+onButton	KEYWORD2
+process	KEYWORD2
