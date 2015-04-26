@@ -104,7 +104,7 @@ void loop() {
 
 ## Example
 
-The [JoystickDemo](./examplaes/JoystickDemo) shows the usage of all axes and buttons reports. Activity is reported via serial interface.
+The [JoystickDemo](./examples/JoystickDemo) shows the usage of all axes and buttons reports. Activity is reported via serial interface.
 
 
 
