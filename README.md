@@ -1,18 +1,18 @@
 # Arduino
 
-This repository contains some 
-
 ## Projects
 
-### The Arduino MIDI Joystick [ArMiJoy](./ArMiJoy)
+### [ArduinoISP](./ArduinoISP) - Howto use ICSP Header
+
+Some details on using ICSP header to program ATmega328 and ATmega16U2.  
+
+### [ArMiJoy](./ArMiJoy) - The Arduino MIDI Joystick 
 
 A MIDI input device build with the OpenJumper Joystick Shield.
 
-## Libraries
+### [Joystick](./Joystick) - A Library
 
-### [Joystick](./libraries/Joystick)
-
-Library for the OpenJumper Joystick Shield
+Library for the OpenJumper Joystick Shield.
 
 ## License
 

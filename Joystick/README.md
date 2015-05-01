@@ -6,7 +6,7 @@ This library allows your sketches to communicate with the OpenJumper Joystick Sh
 
 ## Installation
 
-Copy this folder to your Arduino libraries folder and (re)start Arduino.
+Copy the src folder to your Arduino libraries folder and (re)start Arduino.
 
 ## Usage
 

@@ -9,10 +9,10 @@ This sketch turns your OpenJumper Joystick Shield into a MIDI input device.
 
 Two libraries are needed:
 
-Library    | Description
----------  | ----------
-MIDI.h     | MIDI I/O on the Arduino serial ports. [Github](https://github.com/FortySevenEffects/arduino_midi_library/releases/tag/4.2), [Doku](http://arduinomidilib.fortyseveneffects.com/index.html)
-Joystick.h | Library for the OpenJumper Joystick Shield. [Github](https://github.com/hnauen/Arduino)
+Library  | Description
+-------  | ----------
+MIDI     | MIDI I/O on the Arduino serial ports. [Github](https://github.com/FortySevenEffects/arduino_midi_library/releases/tag/4.2), [Doku](http://arduinomidilib.fortyseveneffects.com/index.html)
+Joystick | Library for the OpenJumper Joystick Shield. [Github](../Joystick)
 
  
 ## Functionality
@@ -30,7 +30,7 @@ If you have your own MIDI hardware you can equip the ArMiJoy with a MIDI connect
 
 Since I do not have such hardware I decided to use USB-MIDI instead. [Hiduino](https://github.com/ddiakopoulos/hiduino) provides firmwares for building a class-compliant USB-MIDI device from an Arduino UNO or Mega 2560. 
 
-To upload the firmware you need an ISP programmer. I used another UNO and the ArduinoISP.ino which is a default Arduino example. 3 LEDs, a little wiring, and the ISP is ready for use. [ArduinoISP.md](../ArduinoISP.md) provides details.
+To upload the firmware you need an ISP programmer. I used another UNO and the ArduinoISP.ino which is a default Arduino example. 3 LEDs, a little wiring, and the ISP is ready for use, see [ArduinoISP](../ArduinoISP) for details.
 
 Now you can use the ArMiJoy with your MIDI software. 
 
